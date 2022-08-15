@@ -24,7 +24,7 @@
 
 
 ## 주요 기능
-<img src="https://firebasestorage.googleapis.com/v0/b/proshare-312907.appspot.com/o/Api.png?alt=media" /><br/>
+<img width="1012" alt="Api" src="https://user-images.githubusercontent.com/38976920/184657251-f97be9f6-114e-41dc-b62a-9518c5479d8c.png"><br/>
 - [ADMIN] 블로그 글 생성하기
 <br/>
 
