@@ -1,0 +1,10 @@
+.git/
+.vscode/
+.venv/
+.log/
+.gitignore
+.dockerignore
+Dockerfile
+ProdDockerfile
+docker-compose.yml
+old/   

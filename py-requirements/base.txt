@@ -1,0 +1,81 @@
+Django==3.2.7
+django-extensions==3.1.3
+django-filter==21.1
+
+# ENV
+python-dotenv==0.19.2
+
+# PostgresSQL
+psycopg2==2.9.1
+
+# Rest Framework
+djangorestframework==3.12.4
+# jwt
+djangorestframework-jwt==1.11.0
+
+# for date processing
+python-dateutil==2.8.1
+
+# Logging
+git+https://github.com/Seedstars/django-rest-logger.git
+
+django-rest-knox==4.1.0
+
+# django-cors-headers
+django-cors-headers==3.8.0
+
+#numpy==1.18.1
+pandas==1.3.5
+
+# firestore
+# firebase_admin==3.2.1
+# google-cloud-core==1.1.0
+# google-cloud-firestore==1.6.1
+# google-cloud-storage==1.24.1
+
+# pip install django-storages[google]
+django-storages[google]==1.11.1
+google-cloud-secret-manager==2.7.2
+
+# iamport
+iamport-rest-client==0.8.1
+
+# logging
+django-request-logging==0.7.3
+drf-tracking==1.5.0
+
+# cookies same site
+django_samesite_none==0.0.3
+
+# django next prev
+django-next-prev==1.1.0
+
+# froala editor
+django-froala-editor==3.2.2
+
+# taggit
+django-taggit==1.5.1
+django-taggit-labels==0.7.0
+django-taggit-templatetags2==1.6.1
+
+# Imagemagick
+# apt-get install libmagickwand-dev
+# Wand==0.6.7
+django-imagekit==4.0.2
+django-appconf==1.0.5 
+Pillow==8.3.2
+pilkit==2.0
+
+# email inlinecss
+django-inlinecss==0.3.0
+
+# environ
+django-environ==0.8.1
+
+# cidr HOST
+django-allow-cidr==0.3.1
+
+# jet
+django-3-jet==1.0.8
+drf-yasg==1.20.0
+six==1.15.0

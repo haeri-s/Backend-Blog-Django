@@ -1,0 +1,6 @@
+-r base.txt
+
+gunicorn==20.1.0
+circus==0.17.1
+pyOpenSSL==20.0.1
+

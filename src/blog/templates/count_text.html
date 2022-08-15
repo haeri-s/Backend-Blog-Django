@@ -1,0 +1,17 @@
+<!-- templates/admin/counter_text.html -->
+
+{% include "django/forms/widgets/input.html" %}
+{% load taggit_templatetags2_tags %}
+
+<span id="counter_{{widget.attrs.id}}"></span>
+<ul>
+    {% get_taglist as tags %}
+    {% for tag in tags %}
+    <li>{{tag}} ({{tag.num_times}})</li>
+    {% endfor %}
+    </ul>
+<script>
+    document.querySelector('#{{widget.attrs.id}}').addEventListener("input", function(){
+        document.querySelector("#counter_{{ widget.attrs.id}}").innerHTML = this.value.length + '글자';
+    })
+</script>

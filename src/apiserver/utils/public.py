@@ -1,0 +1,1 @@
+EMAIL_AUTH_CODE_EXPIRY_TIME = 10 # 이메일 인증코드 만료 시간: 10분
