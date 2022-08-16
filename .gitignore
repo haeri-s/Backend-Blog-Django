@@ -22,3 +22,4 @@ cloud_sql_proxy
 .env
 .env.stage
 .env.prod
+src/apiserver/static
